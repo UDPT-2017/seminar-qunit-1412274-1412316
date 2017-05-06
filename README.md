@@ -4,7 +4,7 @@
 
 Thành viên:
 * [ ] **1412316** Đặng Nhật Minh (DangNhatMinh96)
-* [ ] **MSSV2** Tên sinh viên 2 (tên tài khoản github)
+* [ ] **1412274** Nguyễn Hoàng Kim (1412274-NHKim)
 
 URL: **Link github page**
 
