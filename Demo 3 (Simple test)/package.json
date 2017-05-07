@@ -1,0 +1,22 @@
+{
+  "name": "qunitjs",
+  "version": "1.0.0",
+  "description": "This is just a qunit test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1412274-NHKim/Test.git"
+  },
+  "author": "Kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/1412274-NHKim/Test/issues"
+  },
+  "homepage": "https://github.com/1412274-NHKim/Test#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}

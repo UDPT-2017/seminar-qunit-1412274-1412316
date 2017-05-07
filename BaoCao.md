@@ -18,24 +18,34 @@ Là mô hình phát triển với trọng tâm hướng về việc kiểm thử
 * Nếu trong lần chạy thứ 2 vẫn đưa ra 1 kết quả thất bại, điều đó có nghĩa là thiết kế chưa ổn và người developer lại chỉnh sửa mã nguồn và chạy lại kịch bản đến khi thành công.
 * Khi kịch bản kiểm thử được chạy thành công, người developer tiến hành chuẩn hóa đoạn mã nguồn (base-line code) và tiếp tục hồi quy với kịch bản kiểm thử tiếp theo. Việc chuẩn hóa bao gồm thêm các comment, loại bỏ các dư thừa, tối ưu các biến…
 
+![Image of TDD](/image/2.png)
+
 **4. BDD(Behavior Driven Development)**
 * BDD là sự mở rộng của TDD (Test driven development). Thay vì tập trung vào phát triển phần mềm theo hướng kiểm thử, BDD tập trung vào phát triển phần mềm theo hướng hành vi.
 * Dựa vào requirement các kịch bản test (Scenarios) sẽ được viết trước dưới dạng ngôn ngữ tự nhiên và dễ hiểu nhất sau đó mới thực hiện cài đặt source code đễ pass qua tất cả các stories đó.
 * Những kịch bản test này được viết dưới dạng các feature file và đòi hỏi sự cộng tác từ tất cả các thành viên tham gia dự án hay stakeholder.
 
+![Image of BDD](/image/3.jpg)
+
 **5. QUnit**
-*5.1 Định nghĩa*
+* *5.1 Định nghĩa*
 
   QUnit là 1 framework dùng để kiểm thử đơn vị (Unit Testing) mạnh, dễ sử dụng.
 
-*5.2 Đặc điểm*
-*	Là một Framework mã nguồn mở dùng để tạo ra những bộ kiểm tra lỗi.
-*	Chỉ rõ những phép so sánh về kết quả đạt được với kết quả mong đợi. Các phần mã có kết quả chạy đúng sẽ hiển thị dòng màu xanh, ngược lại thì màu đỏ => dễ phát hiện những phần mã nguồn bị lỗi.
-*	Câu lệnh của QUnit thường ít phức tạp, cho phép lập trình viên tiết kiệm nhiều thời gian trong việc code.
-*	Những khâu kiểm tra của QUnit là tự động cùng với việc gửi về kết quả phản hồi một cách nhanh chóng.
-*	Các bộ kiểm tra của QUnit có thể bao gồm nhiều bộ kiểm tra khác.  
-*	QUnit khiến cho việc thiết kế luôn tuân theo những nguyên tắc cơ bản như KISS, YAGNI làm cho code dễ hiểu.
-*	QUnit rất phù hợp cho việc kiểm tra hồi quy.
+  ![Image of Qunit](/image/1.png)
+
+* *5.2 Đặc điểm*
+  *	Là một Framework mã nguồn mở dùng để tạo ra những bộ kiểm tra lỗi.
+  *	Chỉ rõ những phép so sánh về kết quả đạt được với kết quả mong đợi. Các phần mã có kết quả chạy đúng sẽ hiển thị dòng màu xanh, ngược lại thì màu đỏ => dễ phát hiện những phần mã nguồn bị lỗi.
+  *	Câu lệnh của QUnit thường ít phức tạp, cho phép lập trình viên tiết kiệm nhiều thời gian trong việc code.
+  *	Những khâu kiểm tra của QUnit là tự động cùng với việc gửi về kết quả phản hồi một cách nhanh chóng.
+  *	Các bộ kiểm tra của QUnit có thể bao gồm nhiều bộ kiểm tra khác.  
+  *	QUnit khiến cho việc thiết kế luôn tuân theo những nguyên tắc cơ bản như KISS, YAGNI làm cho code dễ hiểu.
+  *	QUnit rất phù hợp cho việc kiểm tra hồi quy.
+
+* *5.3 Nguyên lý làm việc*
+
+  ![Image of TDD](/image/4.png)
 
 # II. Tính chất của Qunit
 *	Cài đặt đơn giản, không có yêu cầu gì nhiều.
