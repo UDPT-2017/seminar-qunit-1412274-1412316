@@ -112,3 +112,8 @@ Cài đặt bằng nodejs:
 *	async: hướng dẫn QUnit đợi 1 test bất đồng bộ
 *	start: sử dụng để bắt đầu 1 tập test bất đồng bộ
 *	test: thêm 1 test để thực thi
+
+# IX Tài liệu tham khảo
+* https://api.qunitjs.com/
+* https://www.tutorialspoint.com/qunit/qunit_quick_guide.htm
+* https://qunitjs.com/cookbook/
