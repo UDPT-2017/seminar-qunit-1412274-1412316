@@ -19,7 +19,7 @@ Yêu cầu **GIT**
 * [ ] Sử dụng GIT theo Gitflow Workflow.
 
 Yêu cầu **bắt buộc**
-* [ ] Source code demo
+* [x] Source code demo
 * [x] Slide thuyết trình
 * [ ] Tạo github page để viết lại báo cáo cho nội dung đề tài tìm hiểu
 
