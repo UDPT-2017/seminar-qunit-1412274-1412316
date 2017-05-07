@@ -6,7 +6,7 @@ Thành viên:
 * [x] **1412316** Đặng Nhật Minh (DangNhatMinh96)
 * [x] **1412274** Nguyễn Hoàng Kim (1412274-NHKim)
 
-URL: **Link github page**
+URL: **https://udpt-2017.github.io/seminar-qunit-1412274-1412316/**
 
 ## Yêu cầu
 
@@ -34,7 +34,7 @@ Các **nội dung lý thuyết** dự định tìm hiểu. Nhóm liệt kê các
 * [x] Async control
 
 Các **chức năng của demo** đã thực hiện hoặc dự kiến thực hiện. Nhóm check vào các chức năng đã làm
-* [ ] Chức năng 1
+* [x] Tạo một bộ test phép toán trong Demo 3 (Simple Test)
 * [ ] Chức năng 2
 
 ## Demo
