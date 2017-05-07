@@ -1,4 +1,4 @@
-# 1. Giới thiệu
+# 1. Giới thiệu:
 QUnit là 1 framework dùng để kiểm thử đơn vị (Unit Testing) mạnh, dễ sử dụng.
 
 **a) Kiểm thử đơn vị là gì?**
