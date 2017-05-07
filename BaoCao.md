@@ -25,6 +25,7 @@ Là mô hình phát triển với trọng tâm hướng về việc kiểm thử
 
 **5. QUnit**
 *5.1 Định nghĩa*
+
   QUnit là 1 framework dùng để kiểm thử đơn vị (Unit Testing) mạnh, dễ sử dụng.
 
 *5.2 Đặc điểm*
