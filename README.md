@@ -20,12 +20,18 @@ Yêu cầu **GIT**
 
 Yêu cầu **bắt buộc**
 * [ ] Source code demo
-* [ ] Slide thuyết trình
+* [x] Slide thuyết trình
 * [ ] Tạo github page để viết lại báo cáo cho nội dung đề tài tìm hiểu
 
 Các **nội dung lý thuyết** dự định tìm hiểu. Nhóm liệt kê các nội dung đã làm được vào bên dưới và check vào các nội dung đã tìm hiểu được.
-* [ ] Nội dung 1
-* [ ] Nội dung 2
+* [x] Khái niệm về Qunit, Unit test, TDD và BDD
+* [x] Những tính chất cơ bản của Qunit
+* [x] Câu lệnh cài đặt Qunit
+* [x] các phương thức chính của Qunit
+* [x] Các Assertion
+* [x] Cách cấu hình trong 1 bộ test
+* [x] Tập lệnh Callback
+* [x] Async control
 
 Các **chức năng của demo** đã thực hiện hoặc dự kiến thực hiện. Nhóm check vào các chức năng đã làm
 * [ ] Chức năng 1
