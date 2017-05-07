@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 # I. Giới thiệu chung
 **1. Kiểm thử đơn vị là gì?**
+=======
+# 1. Giới thiệu:
+QUnit là 1 framework dùng để kiểm thử đơn vị (Unit Testing) mạnh, dễ sử dụng.
+
+**a) Kiểm thử đơn vị là gì?**
+>>>>>>> 68b2439ecddf373a3efbdaa639995eb54dfdeed3
 Kiểm thử đơn vị là 1 phương pháp kiểm thử phần mềm, công việc chính là kiểm thử chức năng, cụ thể là các thành phần trong chức năng 1 cách riêng biệt với nhau.
 
 **2. Kiểm thử đơn vị dùng để làm gì?**

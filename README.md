@@ -3,8 +3,8 @@
 **QUnit** là một repository trong đề tài tìm hiểu của lớp Ứng dụng phân tán.
 
 Thành viên:
-* [ ] **1412316** Đặng Nhật Minh (DangNhatMinh96)
-* [ ] **1412274** Nguyễn Hoàng Kim (1412274-NHKim)
+* [x] **1412316** Đặng Nhật Minh (DangNhatMinh96)
+* [x] **1412274** Nguyễn Hoàng Kim (1412274-NHKim)
 
 URL: **Link github page**
 
@@ -19,7 +19,7 @@ Yêu cầu **GIT**
 * [ ] Sử dụng GIT theo Gitflow Workflow.
 
 Yêu cầu **bắt buộc**
-* [ ] Source code demo
+* [x] Source code demo
 * [x] Slide thuyết trình
 * [ ] Tạo github page để viết lại báo cáo cho nội dung đề tài tìm hiểu
 
