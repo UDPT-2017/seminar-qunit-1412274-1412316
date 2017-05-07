@@ -11,8 +11,22 @@ Kiểm thử đơn vị là 1 phương pháp kiểm thử phần mềm, công vi
 *	Hỗ trợ máy chủ (Vd: node.js) và môi trường của máy client.
 *	Được phát triển bởi John Resig là 1 thành phần của jQuery.
 *	Các phiên bản mới nhất đều có thể kiểm thử và sửa lỗi thông qua trang github
+* Dùng để thực hiện các quy trình Agile phổ biến như TDD, BDD
 
-*Tính chất*
+*TDD là gì?*
+Là mô hình phát triển với trọng tâm hướng về việc kiểm thử. TDD được xây dựng theo hai tiêu chí: Test-First (Kiểm thử trước) và Refactoring (Điều chỉnh mã nguồn). Trong đó, khi một yêu cầu phần mềm (requirement) được đặt ra:
+* Người developer soạn thảo kịch bản kiểm thử (test case) cho yêu cầu đó trước tiên và chạy thử kịch bản đó lần đầu tiên. Hiển nhiên, việc chạy thử sẽ đưa ra 1 kết quả thất bại vì hiện tại chức năng đó chưa được xây dựng (và thông qua kết quả đó, ta cũng kiểm tra được là kịch bản kiểm thử đó được viết đúng).
+* Theo đó, dựa vào mong muốn (expectation) của kịch bản kia, người developer sẽ xây dựng một lượng mã nguồn (source code) vừa đủ để lần chạy thứ 2 của kịch bản đó thành công.
+* Nếu trong lần chạy thứ 2 vẫn đưa ra 1 kết quả thất bại, điều đó có nghĩa là thiết kế chưa ổn và người developer lại chỉnh sửa mã nguồn và chạy lại kịch bản đến khi thành công.
+* Khi kịch bản kiểm thử được chạy thành công, người developer tiến hành chuẩn hóa đoạn mã nguồn (base-line code) và tiếp tục hồi quy với kịch bản kiểm thử tiếp theo. Việc chuẩn hóa bao gồm thêm các comment, loại bỏ các dư thừa, tối ưu các biến…
+
+*BDD là gì?*
+* BDD là sự mở rộng của TDD (Test driven development). Thay vì tập trung vào phát triển phần mềm theo hướng kiểm thử, BDD tập trung vào phát triển phần mềm theo hướng hành vi.
+* Dựa vào requirement các kịch bản test (Scenarios) sẽ được viết trước dưới dạng ngôn ngữ tự nhiên và dễ hiểu nhất sau đó mới thực hiện cài đặt source code đễ pass qua tất cả các stories đó.
+* Những kịch bản test này được viết dưới dạng các feature file và đòi hỏi sự cộng tác từ tất cả các thành viên tham gia dự án hay stakeholder.
+
+
+# Tính chất
 *	Cài đặt đơn giản, không có yêu cầu gì nhiều.
 *	Tính thực thi: vừa đơn giản và vừa nhanh.
 *	Cố định và dựa vào API nhưng có thể mở rộng.
@@ -28,10 +42,6 @@ Cài đặt bằng nodejs:
 * Tải trực tiếp 2 file vào folder có chứa file .html:
 1. **qunit-xxx.js**
 2. **qunit-xxx.css**
-
-# Nguyên tắc làm việc
-
-# Chức năng
 
 # Bao gồm các phương pháp chính (Main methods)
 *	module: các test được nhóm lại theo 1 nhãn
@@ -81,5 +91,3 @@ Cài đặt bằng nodejs:
 *	async: hướng dẫn QUnit đợi 1 test bất đồng bộ
 *	start: sử dụng để bắt đầu 1 tập test bất đồng bộ
 *	test: thêm 1 test để thực thi
-
-# Ứng dụng
